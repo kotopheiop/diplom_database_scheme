@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>9daf5ff2-ca8f-411a-b2d7-368000f40ad7.SCHEMA:onelinesoft_db</OriginalElement>
+  <nodes>
+    <node x="74.0654569892472" y="943.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.action</node>
+    <node x="655.0624999999999" y="589.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.group</node>
+    <node x="1066.8154569892472" y="256.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.degree</node>
+    <node x="1185.8622311827955" y="932.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.qualification</node>
+    <node x="305.0" y="589.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.sport_qualification</node>
+    <node x="1065.5625" y="1286.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.scientific_work</node>
+    <node x="354.75" y="844.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.student</node>
+    <node x="847.9493279569892" y="888.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.graduate</node>
+    <node x="1190.7788978494623" y="212.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.post</node>
+    <node x="1575.8622311827955" y="987.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.typesw</node>
+    <node x="0.0" y="589.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.type_action</node>
+    <node x="152.0" y="589.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.level_event</node>
+    <node x="744.3154569892472" y="1484.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.jobs</node>
+    <node x="341.8801075268816" y="11.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.faculty</node>
+    <node x="1046.2826612903225" y="490.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.teacher</node>
+    <node x="1356.8622311827955" y="910.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.publication</node>
+    <node x="1426.1122311827955" y="589.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.type_publication</node>
+    <node x="306.0" y="1429.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.participation</node>
+    <node x="947.7788978494623" y="0.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.speciality</node>
+    <node x="854.8154569892472" y="168.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.education</node>
+    <node x="587.9493279569892" y="954.0">9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.organization</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.action" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.level_event">
+      <point x="37.5" y="-92.0" />
+      <point x="186.5654569892472" y="824.0" />
+      <point x="218.0" y="824.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.graduate" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.group">
+      <point x="-57.33333333333337" y="-147.0" />
+      <point x="876.6159946236558" y="804.0" />
+      <point x="749.5625" y="804.0" />
+      <point x="31.500000000000057" y="48.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.jobs" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.graduate">
+      <point x="38.5" y="-59.0" />
+      <point x="859.8154569892472" y="1266.0" />
+      <point x="890.9493279569892" y="1266.0" />
+      <point x="-43.0" y="147.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.graduate" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.education">
+      <point x="0.0" y="-147.0" />
+      <point x="933.9493279569892" y="804.0" />
+      <point x="902.8154569892472" y="804.0" />
+      <point x="-48.0" y="136.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.education" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.faculty">
+      <point x="-48.0" y="-136.0" />
+      <point x="902.8154569892472" y="138.0" />
+      <point x="440.8801075268816" y="138.0" />
+      <point x="33.0" y="48.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.action" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.type_action">
+      <point x="-37.5" y="-92.0" />
+      <point x="111.5654569892472" y="824.0" />
+      <point x="66.0" y="824.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.teacher" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.degree">
+      <point x="0.0" y="-147.0" />
+      <point x="1133.7826612903225" y="465.0" />
+      <point x="1110.3154569892472" y="465.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.teacher" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.post">
+      <point x="58.33333333333337" y="-147.0" />
+      <point x="1192.1159946236558" y="465.0" />
+      <point x="1281.7788978494623" y="465.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.education" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.speciality">
+      <point x="48.0" y="-136.0" />
+      <point x="998.8154569892472" y="148.0" />
+      <point x="1015.7788978494623" y="148.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.publication" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.type_publication">
+      <point x="49.75" y="-125.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.graduate" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.teacher">
+      <point x="57.33333333333337" y="-147.0" />
+      <point x="991.2826612903225" y="824.0" />
+      <point x="1098.7826612903225" y="824.0" />
+      <point x="-35.0" y="147.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.participation" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.student">
+      <point x="0.0" y="-114.0" />
+      <point x="-46.75" y="191.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.qualification" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.teacher">
+      <point x="0.0" y="-103.0" />
+      <point x="1261.3622311827955" y="814.0" />
+      <point x="1168.7826612903225" y="814.0" />
+      <point x="35.0" y="147.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.scientific_work" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.teacher">
+      <point x="0.0" y="-257.0" />
+      <point x="1165.0625" y="1266.0" />
+      <point x="1175.3622311827955" y="1266.0" />
+      <point x="1175.3622311827955" y="824.0" />
+      <point x="1133.7826612903225" y="824.0" />
+      <point x="0.0" y="147.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.participation" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.action">
+      <point x="-63.66666666666663" y="-114.0" />
+      <point x="337.83333333333337" y="1266.0" />
+      <point x="149.0654569892472" y="1266.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.publication" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.teacher">
+      <point x="-49.75" y="-125.0" />
+      <point x="1406.6122311827955" y="804.0" />
+      <point x="1203.7826612903225" y="804.0" />
+      <point x="70.0" y="147.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.student" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.speciality">
+      <point x="23.375" y="-191.0" />
+      <point x="471.625" y="824.0" />
+      <point x="499.49999999999994" y="824.0" />
+      <point x="499.49999999999994" y="148.0" />
+      <point x="970.4455645161289" y="148.0" />
+      <point x="-45.33333333333334" y="59.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.teacher" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.education">
+      <point x="-58.33333333333337" y="-147.0" />
+      <point x="1075.4493279569892" y="465.0" />
+      <point x="998.8154569892472" y="465.0" />
+      <point x="48.0" y="136.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.participation" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.teacher">
+      <point x="63.66666666666663" y="-114.0" />
+      <point x="465.16666666666663" y="1266.0" />
+      <point x="577.4493279569892" y="1266.0" />
+      <point x="577.4493279569892" y="814.0" />
+      <point x="1063.7826612903225" y="814.0" />
+      <point x="-70.0" y="147.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.student" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.group">
+      <point x="70.125" y="-191.0" />
+      <point x="518.375" y="804.0" />
+      <point x="686.5624999999999" y="804.0" />
+      <point x="-31.5" y="48.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.scientific_work" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.speciality">
+      <point x="79.59999999999997" y="-257.0" />
+      <point x="1244.6625" y="1266.0" />
+      <point x="1673.3622311827955" y="1266.0" />
+      <point x="1673.3622311827955" y="148.0" />
+      <point x="1061.1122311827955" y="148.0" />
+      <point x="45.33333333333334" y="59.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.student" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.faculty">
+      <point x="-70.125" y="-191.0" />
+      <point x="378.125" y="824.0" />
+      <point x="294.5" y="824.0" />
+      <point x="294.5" y="148.0" />
+      <point x="374.8801075268816" y="148.0" />
+      <point x="-33.0" y="48.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.scientific_work" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.graduate">
+      <point x="-39.80000000000001" y="-257.0" />
+      <point x="1125.2624999999998" y="1246.0" />
+      <point x="976.9493279569892" y="1246.0" />
+      <point x="43.0" y="147.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.scientific_work" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.typesw">
+      <point x="39.80000000000001" y="-257.0" />
+      <point x="1204.8625" y="1256.0" />
+      <point x="1619.3622311827955" y="1256.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.student" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.sport_qualification">
+      <point x="-23.375" y="-191.0" />
+      <point x="424.875" y="824.0" />
+      <point x="397.0" y="824.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.jobs" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.organization">
+      <point x="-38.5" y="-59.0" />
+      <point x="782.8154569892472" y="1266.0" />
+      <point x="707.9493279569892" y="1266.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.scientific_work" target="9daf5ff2-ca8f-411a-b2d7-368000f40ad7.TABLE:onelinesoft_db.student">
+      <point x="-79.60000000000002" y="-257.0" />
+      <point x="1085.4624999999999" y="1256.0" />
+      <point x="495.0" y="1256.0" />
+      <point x="46.75" y="191.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5164835164835164" x="1835.9340277777778" y="1053.6675461741427" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
